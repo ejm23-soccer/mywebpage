@@ -1,82 +1,219 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-  <Title>Errol's homepage</Title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Errol Marino | Homepage</title>
   <style>
-  table, th, td {
-    border: 1px solid black;
-  }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f8fa;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #1e1e1e;
+      color: white;
+      padding: 25px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+      letter-spacing: 1px;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #1e1e1e;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 8px;
+    }
+
+    p {
+      font-size: 1.1em;
+    }
+
+    ul, ol {
+      margin-left: 20px;
+      line-height: 1.7em;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+
+    th, td {
+      padding: 10px 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f0f0f0;
+      font-weight: 600;
+    }
+
+    img {
+      display: block;
+      margin: 20px 0;
+      max-width: 200px;
+      border-radius: 5px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    iframe {
+      display: block;
+      margin: 30px auto;
+      border: none;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #1e1e1e;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.9em;
+    }
+
+    footer a {
+      color: #4da6ff;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
+
 <body>
-<h1 style="background-color:LightGray;">LightGray</h1>
-<h1>Welcome to my webpage!</h1>
-  <h2>Something about me</h2>
-  Hi, I am Errol Marino. I am a soccer player at Saint Mary's College in Moraga, CA.
-  <img src="">
-  <h2>Hobbies:</h2>
-  Some of my hobbies are:
-  <ul>
-    <li>Playing soccer</li>
-    <li>Watching movies</li>
-    <li>Hanging with the boys</li>
-    <li>working out</li>
-    <li>going to the beach</li>
-    <li>Eating and sleeping</li>
-  </ul>
+  <header>
+    <h1>Errol Marino</h1>
+    <p>Student-Athlete | Saint Mary's College of California | Men's Soccer</p>
+  </header>
 
-  <h2>Places Ive Visited:</h2>
-  <ul>
-    <li>Mexico</li>
-    <li>Texas</li>
-    <li>Arizona</li>  
-    <li>Italy</li>
-    <li>New York</li>
-    <li>Virgina</li>
-    
-<h2>Classes that I am taking in Fall 2025</h2>
-  <ol>
-    <li>CS-102-01 - Digital Literacy</li>
-    <li>Data-105-05 - Statistics</li>
-    <li>Data-105L-05 - Excel Lab</li>
-  </ol>
-  <table>
-    <tr>
-      <td>Course Name</thead>
-      <td>Course Name</thead>
-      <td>Course Location</thead>
-      <td>Course Days</thead>
-      <td>Course Days</thead>
-    </tr>
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>Hi, I’m <strong>Errol Marino</strong>, a dedicated student-athlete at <strong>Saint Mary’s College in Moraga, CA</strong>. I’m passionate about soccer, fitness, and teamwork — both on and off the field.</p>
+      <img src="" alt="Errol Marino photo placeholder">
+    </section>
+
+    <section>
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Playing Soccer</li>
+        <li>Watching Movies</li>
+        <li>Hanging with the Boys</li>
+        <li>Working Out</li>
+        <li>Going to the Beach</li>
+        <li>Eating and Sleeping</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Places I've Visited</h2>
+      <ul>
+        <li>Mexico</li>
+        <li>Texas</li>
+        <li>Arizona</li>
+        <li>Italy</li>
+        <li>New York</li>
+        <li>Virginia</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Fall 2025 Classes</h2>
+      <ol>
+        <li>CS-102-01 - Digital Literacy</li>
+        <li>DATA-105-05 - Statistics</li>
+        <li>DATA-105L-05 - Excel Lab</li>
+      </ol>
+
+      <table>
         <tr>
-      <td>CS 102-01</td>
-      <td>Digital Literacy</td>
-      <td>GV 330</td>
-      <td>Tue, Thurs</td>
-      <td>11:40 am - 12:55 pm</td>
-    </tr>
-    <tr>
-      <td>Data 105-05</td>
-      <td>Statistics</td>
-      <td>GV 340</td>
-      <td>Tue, Thurs</td>
-      <td>3:20 pm - 4:35 pm</td>
-    </tr>
-    <tr>
-      <td>Data 105L-05</td>
-      <td>Excel Lab</td>
-      <td>GV 330</td>
-      <td>Fri</td>
-      <td>10:40 am - 11:30 am</td>
-    </tr>
-  </table>
+          <th>Course Code</th>
+          <th>Course Name</th>
+          <th>Location</th>
+          <th>Days</th>
+          <th>Time</th>
+        </tr>
+        <tr>
+          <td>CS 102-01</td>
+          <td>Digital Literacy</td>
+          <td>GV 330</td>
+          <td>Tue, Thurs</td>
+          <td>11:40 am - 12:55 pm</td>
+        </tr>
+        <tr>
+          <td>DATA 105-05</td>
+          <td>Statistics</td>
+          <td>GV 340</td>
+          <td>Tue, Thurs</td>
+          <td>3:20 pm - 4:35 pm</td>
+        </tr>
+        <tr>
+          <td>DATA 105L-05</td>
+          <td>Excel Lab</td>
+          <td>GV 330</td>
+          <td>Fri</td>
+          <td>10:40 am - 11:30 am</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>My Campus</h2>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3150.8290429593594!2d-122.11151232398576!3d37.84088790834866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f884cd1042763%3A0xf4af4d5ec8f1ac3d!2sSaint%20Mary&#39;s%20College%20of%20California!5e0!3m2!1sen!2sus!4v1759863771211!5m2!1sen!2sus"
+        width="700"
+        height="400"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+
+      <iframe 
+        width="700"
+        height="394"
+        src="https://www.youtube.com/embed/Vk8xCKMvZik"
+        title="Inspire. Engage. Transform. We are Gaels."
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Errol Marino | Saint Mary's College of California</p>
+    <p><a href="mailto:your.email@stmarys-ca.edu">Contact Me</a></p>
+  </footer>
 </body>
+</html>
 
-<h1>My Campus</h1>
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3150.8290429593594!2d-122.11151232398576!3d37.84088790834866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f884cd1042763%3A0xf4af4d5ec8f1ac3d!2sSaint%20Mary&#39;s%20College%20of%20California!5e0!3m2!1sen!2sus!4v1759863771211!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-
-<iframe width="996" height="560" src="https://www.youtube.com/embed/Vk8xCKMvZik" title="Inspire. Engage. Transform. We are Gaels." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
